@@ -1,0 +1,95 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first_container{
+  background: #ffffff;
+  height: 100vh;
+  font-size: 16px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.child_container{
+  display: flex;
+}
+.first_child{
+  width: 40%;
+  background: #294122;
+  height: 100vh;
+}
+.second_child{
+  width: 60%;
+  background-color: #FFF;
+}
+.logo{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #FFF;
+  padding: 1em 1.5em;
+}
+.description{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10em 1.5em;
+}
+.title{
+  color: #FFF;
+  font-size: 30px;
+  text-align: center;
+}
+.slogan{
+  text-align: center;
+  color: #FFF;
+  font-size: 14px;
+  padding: 1em 0;
+  line-height: 1.5em;
+}
+.btn_connexion{
+  padding: 1em 0;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-top: 2em;
+}
+/* right */
+
+
+.content_right h1{
+  color: #294122;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.form form input{
+  background: #D4C9B3;
+  border: none;
+  padding: 1em 1.5em;
+  display: block;
+  margin: auto;
+  margin-top: 1em;
+  width: 400px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.btn_inscription{
+  padding: 1em 0;
+  border: 1.5px solid #fff;
+  border-radius: 30px;
+  width: 200px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  margin-top: 2em;
+  background: #294122;
+  font-family: Arial, Helvetica, sans-serif;
+}
