@@ -3,7 +3,7 @@
     <div class="logo">
       TasksMaster
     </div>
-    <button class="btn_deconnexion">Deconnexion</button>
+    <button class="btn_deconnexion" @click="logout">Deconnexion</button>
   </header>
   <div class="container body">
     <form @submit.prevent="addTask" class="mb-3">
@@ -140,7 +140,7 @@ export default {
     },
     addTask() {
       const newTask = {
-        id: Date.now(), // Utilisez le timestamp actuel comme identifiant unique simple
+        id: Date.now(), 
         titre: this.newTask.titre,
         description: this.newTask.description,
         status: this.newTask.status,
@@ -149,7 +149,7 @@ export default {
       this.tasks.push(newTask);
       this.saveTasks();
       
-      // Réinitialiser les entrées du formulaire
+     
       this.newTask.titre = '';
       this.newTask.description = '';
       this.newTask.status = '';
