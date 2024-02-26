@@ -1,0 +1,35 @@
+/* .Todo_container{
+    background: #c91414;
+} */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #929079;
+    margin-bottom: 1.5em;
+}
+.btn_deconnexion{
+    background: #294122;
+    padding: 0.5em 1em;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    margin-right: 1.5em;
+}
+.button1{
+    padding: 0.5em 0;
+    background: #294122;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+    margin-right: 1.5em;
+}
+.button2{
+    padding: 0.5em 0;
+    background: #741102;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+}
